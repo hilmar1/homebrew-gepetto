@@ -18,7 +18,7 @@ class GepettoViewer < Formula
   depends_on "gepetto/gepetto/open-scene-graph-with-colladadom"
   depends_on "urdfdom"
   depends_on "osgqt"
-  depends_on :x11
+  depends_on "xquartz"
 
   def install
     if build.head?
